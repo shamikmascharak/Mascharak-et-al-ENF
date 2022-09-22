@@ -3,7 +3,7 @@
 % November 28th, 2019 - Created
 % December 1st, 2019 - First iteration completed
 % October 28th, 2020 - Uploaded to Github
-% May 7th, 2021 - Code updated (Jason Guo)
+% September 22nd, 2022 - Code updated
 
 %% Read files and generate binarized images
 
@@ -179,7 +179,7 @@ for i = 1:nfiles
     red = stored_picro_red_noise{i};
     green = stored_picro_green_noise{i};
     red_bw = stored_picro_red_strel{i};
-    green_bw = stored_picro_red_strel{i};
+    green_bw = stored_picro_green_strel{i};
     red_skel = stored_picro_red_skel{i};
     green_skel = stored_picro_green_skel{i};
     red_branch = stored_picro_red_branch{i};
